@@ -7,3 +7,33 @@
 html {
   font-size: 10px;
 }
+
+/* common */
+.ant-picker {
+  background-color: #cfe2f3 !important;
+  color: black !important;
+  width: 100% !important;
+}
+
+.ant-picker-input {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  font-size: 25px;
+  margin-left: -5px;
+  color: black;
+}
+
+.ant-picker-input input {
+  margin-left: 10px;
+  font-size: 1.8rem;
+  color: black;
+  width: 100%;
+}
+::placeholder {
+  color: black !important;
+  font-size: 1.8rem;
+}
+
+.ant-picker-input span {
+  color: black;
+}

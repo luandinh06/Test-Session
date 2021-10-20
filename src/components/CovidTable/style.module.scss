@@ -1,0 +1,91 @@
+$bachGroundColor: #cfe2f3;
+
+.covidTable {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+
+    & .container {
+        width: 60rem;
+    }
+
+    & .header {
+        width: 100%;
+        height: 10rem;
+
+        border-radius: 50%;
+        border: 2px solid black;
+
+        text-align: center;
+        line-height: 10rem;
+        font-weight: 700;
+        font-size: 1.8rem;
+
+        background-color: $bachGroundColor;
+    }
+
+    & .chooseCountry {
+        margin: 3rem 0;
+        width: 26rem;
+        height: 5rem;
+        background-color: $bachGroundColor;
+
+        display: flex;
+        align-items: center;
+        border: 2px solid black;
+
+        & i {
+            font-size: 2rem;
+            margin: 0 1rem;
+        }
+
+        & input {
+            font-size: 1.8rem;
+            border: none;
+            background-color: $bachGroundColor;
+        }
+        :hover,
+        :active,
+        :focus {
+            outline: none;
+        }
+    }
+
+    & .chooseDate {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+
+        & .chooseDateElement {
+            width: 26rem;
+            height: 5rem;
+            background-color: #cfe2f3;
+            font-size: 2rem;
+
+            display: flex;
+            align-items: center;
+            border: 2px solid black;
+        }
+    }
+
+    & .result {
+        width: 100%;
+        height: 230px;
+        background-color: $bachGroundColor;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        & .resultText {
+            margin-left: 1.5rem;
+            margin-bottom: 0.5rem;
+
+            font-size: 1.8rem;
+            font-weight: 400;
+        }
+    }
+}
