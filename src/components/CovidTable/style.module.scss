@@ -80,6 +80,8 @@ $bachGroundColor: #cfe2f3;
         justify-content: center;
         flex-direction: column;
 
+        border: 2px solid black;
+
         & .resultText {
             margin-left: 1.5rem;
             margin-bottom: 0.5rem;
@@ -88,4 +90,17 @@ $bachGroundColor: #cfe2f3;
             font-weight: 400;
         }
     }
+}
+
+.warning {
+    margin-top: -25px;
+    color: red;
+    margin-left: 20px;
+}
+
+.hintCountry {
+    height: 100px;
+    overflow: auto;
+    margin-top: -20px;
+    font-size: 16px;
 }
