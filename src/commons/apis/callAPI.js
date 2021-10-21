@@ -20,8 +20,8 @@ export const getList = (resource, style = null, params = {}) => {
             queryParams = `live/country/${params}/status/confirmed/date/${year.toString()}-${month.toString()}-${date.toString()}T00:00:00Z`;
             break;
         case totalByTimeTypes.FETCH_TOTAL_RESULT_BY_TIME:
-            const start = `${params.startTime.getFullYear()}-${params.startTime.getMonth()}-${params.startTime.getDate()}`;
-            const end = `${params.endTime.getFullYear()}-${params.endTime.getMonth()}-${params.endTime.getDate()}`;
+            const start = `${params.startTime.getFullYear()}-${params.startTime.getMonth() + 1}-${params.startTime.getDate()}`;
+            const end = `${params.endTime.getFullYear()}-${params.endTime.getMonth() + 1}-${params.endTime.getDate()}`;
             queryParams = `country/${params.country}?from=${start}T00:00:00Z&to=${end}T00:00:00Z`;
             break;
         default:
