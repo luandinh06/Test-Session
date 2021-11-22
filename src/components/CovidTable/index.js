@@ -34,6 +34,8 @@ function CovidTable() {
     }
 
     console.log(totalResult);
+    console.log(totalResult);
+    console.log(totalResult);
 
     if (totalResult.length > 0 && totalResultByTime.length > 0) {
         result = totalResultByTime[totalResultByTime.length - 1]
