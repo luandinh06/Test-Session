@@ -6,14 +6,16 @@ export const fetchCountryList = () => {
     };
 };
 
-export const fetchCountryListSuccess = (data) => {
-    return {
-        type: taskConstants.FETCH_COUNTRY_LIST_SUCCESS,
-        payload: {
-            data
-        }
-    };
-};
+// export const fetchCountryListSuccess = (data) => {
+//     return {
+//         type: taskConstants.FETCH_COUNTRY_LIST_SUCCESS,
+//         payload: {
+//             data
+//         }
+//     };
+// };
+
+//zzzz
 
 export const fetchCountryListFailed = (error) => {
     return {
